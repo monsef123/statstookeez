@@ -1,3 +1,14 @@
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1607100951837');                   
+  var vizElement = divElement.getElementsByTagName('object')[0];                   
+  if ( divElement.offsetWidth > 800 ) { 
+    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if 
+      ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+  else { vizElement.style.width='100%';vizElement.style.height='1177px';}               
+  var scriptElement = document.createElement('script');           
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';  
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);           
+</script>
 <div class='tableauPlaceholder' id='viz1607100951837' style='position: relative;width: 300px'>
   <noscript>
     <a href='#'>
@@ -18,5 +29,7 @@
     <param name='display_static_image' value='yes' />
     <param name='display_spinner' value='yes' />
     <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' /><param name='language' value='en' /></object></div>
-<script type='text/javascript'>                    var divElement = document.getElementById('viz1607100951837');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <param name='display_count' value='yes' /><param name='language' value='en' />
+  </object>
+</div>
+
